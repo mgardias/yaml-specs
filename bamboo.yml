@@ -1,0 +1,151 @@
+---
+version: 2
+plan:
+  project-key: MANY0
+  key: HST1
+  name: hbk specs test yaml
+stages:
+- Default Stage:
+    manual: false
+    final: false
+    jobs:
+    - Default Job0
+    - Default Job2
+    - Default Job1
+    - Default Job4
+    - Default Job3
+    - Default Job6
+    - Default Job5
+    - Default Job8
+    - Default Job7
+    - Default Job9
+Default Job0:
+  key: JOB0
+  tasks:
+# Checkout Task for default repository will be added implicitly during Specs import
+  - any-task:
+      plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
+      configuration: {}
+  artifact-subscriptions: []
+Default Job2:
+  key: JOB2
+  tasks:
+# Checkout Task for default repository will be added implicitly during Specs import
+  - any-task:
+      plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
+      configuration: {}
+  artifact-subscriptions: []
+Default Job1:
+  key: JOB1
+  tasks:
+# Checkout Task for default repository will be added implicitly during Specs import
+  - any-task:
+      plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
+      configuration: {}
+  artifact-subscriptions: []
+Default Job4:
+  key: JOB4
+  tasks:
+# Checkout Task for default repository will be added implicitly during Specs import
+  - any-task:
+      plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
+      configuration: {}
+  artifact-subscriptions: []
+Default Job3:
+  key: JOB3
+  tasks:
+# Checkout Task for default repository will be added implicitly during Specs import
+  - any-task:
+      plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
+      configuration: {}
+  artifact-subscriptions: []
+Default Job6:
+  key: JOB6
+  tasks:
+# Checkout Task for default repository will be added implicitly during Specs import
+  - any-task:
+      plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
+      configuration: {}
+  artifact-subscriptions: []
+Default Job5:
+  key: JOB5
+  tasks:
+# Checkout Task for default repository will be added implicitly during Specs import
+  - any-task:
+      plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
+      configuration: {}
+  artifact-subscriptions: []
+Default Job8:
+  key: JOB8
+  tasks:
+# Checkout Task for default repository will be added implicitly during Specs import
+  - any-task:
+      plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
+      configuration: {}
+  artifact-subscriptions: []
+Default Job7:
+  key: JOB7
+  tasks:
+# Checkout Task for default repository will be added implicitly during Specs import
+  - any-task:
+      plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
+      configuration: {}
+  artifact-subscriptions: []
+Default Job9:
+  key: JOB9
+  tasks:
+# Checkout Task for default repository will be added implicitly during Specs import
+  - any-task:
+      plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
+      configuration: {}
+  artifact-subscriptions: []
+repositories:
+- github java specs:
+    scope: global
+- test4Bamboo:
+    type: github
+    base-url: https://github.com
+    repository: mgardias/test4Bamboo
+    branch: master
+    user: mgardias
+    password: BAMSCRT@0@0@oKIsN2CXVGVaSi6KvF3inXxI23/prXK7b5xM1IU2P/A=
+    command-timeout-minutes: '180'
+    lfs: false
+    verbose-logs: false
+    use-shallow-clones: false
+    cache-on-agents: true
+    submodules: false
+    ssh-key-applies-to-submodules: false
+    fetch-all: false
+triggers: []
+branches:
+  create: manually
+  delete: never
+  link-to-jira: true
+notifications:
+- events:
+  - plan-failed
+  recipients:
+  - emails:
+    - bamboo@examp3l2e2.com
+labels: []
+dependencies:
+  require-all-stages-passing: false
+  enabled-for-branches: true
+  block-strategy: none
+  plans: []
+other:
+  concurrent-build-plugin: system-default
+  force-stop-build: false
+---
+version: 2
+plan:
+  key: MANY0-HST0
+plan-permissions:
+- roles:
+  - logged-in
+  - anonymous
+  permissions:
+  - view
+...
+
