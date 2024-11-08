@@ -100,7 +100,7 @@ Default Job9:
       configuration: {}
   artifact-subscriptions: []
 repositories:
-- github java specs:
+- github yaml specs:
     scope: global
 - test4Bamboo:
     type: github
@@ -117,6 +117,8 @@ repositories:
     submodules: false
     ssh-key-applies-to-submodules: false
     fetch-all: false
+    viewer:
+      com.atlassian.bamboo.plugins.atlassian-bamboo-plugin-git:githubViewer: {}
 triggers: []
 branches:
   create: manually
