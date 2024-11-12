@@ -11,10 +11,6 @@ stages:
     jobs:
     - Default Job0
     - Default Job2
-    - Default Job1
-    - Default Job4
-    - Default Job3
-    - Default Job6
     - Default Job5
     - Default Job8
     - Default Job7
