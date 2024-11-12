@@ -120,7 +120,8 @@ repositories:
     fetch-all: false
     viewer:
       com.atlassian.bamboo.plugins.atlassian-bamboo-plugin-git:githubViewer: {}
-triggers: []
+triggers: 
+- github-trigger
 branches:
   create: manually
   delete: never
