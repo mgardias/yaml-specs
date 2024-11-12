@@ -3,7 +3,7 @@ version: 2
 plan:
   project-key: MANY0
   key: HST1
-  name: hbk specs test yaml
+  name: po zmianie
 stages:
 - Default Stage:
     manual: false
