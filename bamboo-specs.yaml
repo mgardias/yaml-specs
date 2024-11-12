@@ -1,6 +1,6 @@
 ---
 version: 2
-plan:
+pflan:
   project-key: MANY0
   key: HST1
   name: hbk specs test yaml
