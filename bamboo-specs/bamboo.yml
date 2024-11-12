@@ -31,38 +31,6 @@ Default Job2:
       plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
       configuration: {}
   artifact-subscriptions: []
-Default Job1:
-  key: JOB1
-  tasks:
-# Checkout Task for default repository will be added implicitly during Specs import
-  - any-task:
-      plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
-      configuration: {}
-  artifact-subscriptions: []
-Default Job4:
-  key: JOB4
-  tasks:
-# Checkout Task for default repository will be added implicitly during Specs import
-  - any-task:
-      plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
-      configuration: {}
-  artifact-subscriptions: []
-Default Job3:
-  key: JOB3
-  tasks:
-# Checkout Task for default repository will be added implicitly during Specs import
-  - any-task:
-      plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
-      configuration: {}
-  artifact-subscriptions: []
-Default Job6:
-  key: JOB6
-  tasks:
-# Checkout Task for default repository will be added implicitly during Specs import
-  - any-task:
-      plugin-key: com.atlassian.bamboo.plugins.bamboo-variable-inject-plugin:dump
-      configuration: {}
-  artifact-subscriptions: []
 Default Job5:
   key: JOB5
   tasks:
