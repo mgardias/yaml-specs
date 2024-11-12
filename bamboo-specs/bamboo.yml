@@ -3,7 +3,7 @@ version: 2
 plan:
   project-key: MANY0
   key: HST1
-  name: po zmianie 2
+  name: po zmianie 3
 stages:
 - Default Stage:
     manual: false
