@@ -144,7 +144,7 @@ other:
 ---
 version: 2
 plan:
-  key: MANY0-HST0
+  key: MANY0-HST1
 plan-permissions:
 - roles:
   - logged-in
