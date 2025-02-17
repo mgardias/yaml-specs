@@ -108,7 +108,7 @@ repositories:
     repository: mgardias/test4Bamboo
     branch: master
     user: mgardias
-    password: BAMSCRT@0@0@cPhmjQcGPO4RI2Ch0noqzSp8s6+wGW/L32BYpyKTn8d3bCIFstgOHddBz8UOkpymw3Rbv5GpVenHA3kUsNTHNaE1AQS4LuPW6ChVP8EqnHsoIUS6+4R30vKwlhAWjHfd
+    password: BAMSCRT@0@0@8vuHZwdvxiEbgksJDOTf9HPXvoJaCmkZWeyjlxOYVEWxcTEtAoTJq04eoyZXjghCjuKe2iH8hDPevF56CDmLvYu6q/LVTOoKOCCwCnyJjTEt2UM8wJc4iKl12YTPulUM
     command-timeout-minutes: '180'
     lfs: false
     webhook-enabled: true
